@@ -35,3 +35,7 @@ app.post("/mail",(req,res)=>{
         console.error("error occured",error)
     }
 })
+
+app.listen(3000,()=>{
+  console.log("sever is going on 3000")
+})
